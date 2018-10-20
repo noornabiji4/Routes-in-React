@@ -17,6 +17,9 @@ const Products = () => (
 const About = () => (
   <h2>About</h2>
 )
+const Profile = () => (
+  <h2>About</h2>
+)
 
 
 class App extends Component {
@@ -30,10 +33,13 @@ class App extends Component {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/products">Products</Link></li>
             <li><Link to="/about">About</Link></li>
+            <li><Link to="/profile">Profile</Link></li>
+            
           </ul>
           <Route exact path="/" component={Home} />
           <Route path="/products" component={Products} />
           <Route path="/about" component={About} />
+          <Route path="/profile" component={Profile} />
         </div>
       </Router>
 
