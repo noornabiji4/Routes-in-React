@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Details from './routes'
+// import Details from './routes'
 import {
   BrowserRouter as Router,
   Route,
@@ -35,7 +35,6 @@ class App extends Component {
           <Route path="/products" component={Products} />
           <Route path="/about" component={About} />
         </div>
-
       </Router>
 
     );
